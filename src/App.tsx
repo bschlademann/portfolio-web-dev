@@ -6,7 +6,7 @@ function App() {
     <>
       <ProjectCard
         name={"name"}
-        image={"image"}
+        image={"news-homepage.png"}
         icons={["icon_1, icon_2"]}
         codeLink={"codeLink"}
         liveLink={"liveLink"}

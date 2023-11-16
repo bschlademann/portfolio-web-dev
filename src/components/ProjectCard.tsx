@@ -9,8 +9,9 @@ export const ProjectCard = (props: ProjectCardProps) => {
   const { name, image, icons, codeLink, liveLink } = props;
   return (
     <div className="project-card">
+      {/* click on image leads to live website hosted on github pages */}
+      <img src={`./images/${image}`} alt="" />
       {name}
-      {image}
       {icons}
       {codeLink}
       {liveLink}
