@@ -1,4 +1,4 @@
-import { ProjectCardProps } from "../../types";
+import { ProjectCardProps } from "../types";
 
 // const TechnologyIcons = (props) => {
 //   const react = <i class="fa-brands fa-react"></i>
