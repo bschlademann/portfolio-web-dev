@@ -7,9 +7,13 @@ function App() {
       <ProjectCard
         name={"name"}
         image={"news-homepage.png"}
-        icons={["icon_1, icon_2"]}
-        codeLink={"codeLink"}
-        liveLink={"liveLink"}
+        technologies={[ "react", "typescript", "html5", "css3", "nodejs"]}
+        repoUrl={
+          "https://github.com/bschlademann/frontend_mentor_-_news_homepage"
+        }
+        liveUrl={
+          "https://bschlademann.github.io/frontend_mentor_-_news_homepage/"
+        }
       />
     </>
   );
