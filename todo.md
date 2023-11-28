@@ -1,0 +1,10 @@
+- bio /w blurb 
+    - (/w or /wo image?)
+    - current location
+- spoken languages and level
+    - german (native)
+    - english (C1)
+- basically info from cv but without contact details
+- technologies
+- project cards
+    - add modal to each project with explaination
