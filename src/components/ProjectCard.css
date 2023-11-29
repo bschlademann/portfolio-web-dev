@@ -1,0 +1,26 @@
+.project-card-link {
+    text-decoration: none;
+    color: inherit; /* Preserve text color */
+    display: block; /* Make the link block-level to contain the card */
+  }
+  
+  .project-card {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    background-size: "cover"; 
+    background-position: 'center';
+  }
+  
+  /* Prevents styles from being overridden by the .project-card-link */
+  .repo-link, .repo-link:visited {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+  }
+  
+  /* Ensure .repo-link doesn't stretch to the size of its parent */
+  .repo-link img {
+    display: block; /* This makes sure the link is only as big as the image */
+  }
