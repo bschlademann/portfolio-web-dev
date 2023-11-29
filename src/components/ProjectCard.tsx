@@ -14,7 +14,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
       </label>
       <div className="icons">
         <a href={repoUrl}>
-          <img src="./icons/github.svg" alt="" />
+          <img src="./icons/technologies/github.svg" alt="" />
         </a>
         <div className="technology-icons">{getTechIconList(technologies)}</div>
       </div>

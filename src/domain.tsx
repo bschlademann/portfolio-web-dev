@@ -4,7 +4,7 @@ export const getTechIcon = (technology: Technology, index: number) => {
   return (
     <img
       className="tech-icon"
-      src={`./icons/${technology}.svg`}
+      src={`./icons/technologies/${technology}.svg`}
       alt=""
       key={index}
     />
