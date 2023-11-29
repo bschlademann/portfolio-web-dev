@@ -1,25 +1,12 @@
 import "./App.css";
-import projects from "./projects.json";
-import { ProjectCard } from "./components/ProjectCard";
+import ProjectList from "./components/ProjectList";
 
-function App() {
+const App = () => {
   return (
     <>
-      {projects.map((project, index) => {
-        const { name, image, technologies, repoUrl, liveUrl } = project;
-        return (
-          <ProjectCard
-            name={name}
-            image={image}
-            technologies={technologies}
-            repoUrl={repoUrl}
-            liveUrl={liveUrl}
-            key={index}
-            />
-        );
-      })}
+      <ProjectList />
     </>
   );
-}
+};
 
 export default App;
